@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PhishMeter</title>
+    <style>
+        body { font-family: Arial; background:#111; color:white; text-align:center; }
+        textarea { width:80%; height:200px; margin:20px; }
+        button { padding:10px 20px; font-size:16px; }
+        .result { margin-top:30px; }
+    </style>
+</head>
+<body>
+
+<h1>PhishMeter</h1>
+<p>Paste suspicious email:</p>
+
+<form method="POST">
+    <textarea name="email"></textarea><br>
+    <button type="submit">Scan Email</button>
+</form>
+
+{% if result %}
+<div class="result">
+    <h2>Score: {{ result.score }}</h2>
+    <h2>Risk Level: {{ result.level }}</h2>
+    <pre>{{ result.bar }}</pre>
+
+    <h3>Reasons:</h3>
+    <ul>
+        {% for r in result.reasons %}
+        <li>{{ r }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+</body>
+</html>
