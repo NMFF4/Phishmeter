@@ -23,7 +23,7 @@ Check it out live: [https://phishmeter.onrender.com](https://phishmeter.onrender
 
 ## Email Example
 
-Subject: URGENT: Account Verification Required
+"Subject: URGENT: Account Verification Required
 
 Dear User,
 
@@ -34,7 +34,7 @@ http://fakebank-login.com
 FAILURE TO ACT WITHIN 24 HOURS WILL RESULT IN ACCOUNT SUSPENSION.
 
 THANK YOU,
-The Security Team
+The Security Team"
 
 
 ## Installation (for local testing)
