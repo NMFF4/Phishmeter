@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, request
 from detector import analyze_email
 
@@ -18,4 +19,5 @@ def index():
     return render_template("index.html", result=result)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Use Render's port
+    app.run(host="0.0.0.0", port=port)
