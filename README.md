@@ -21,6 +21,22 @@ Check it out live: [https://phishmeter.onrender.com](https://phishmeter.onrender
 2. Paste the email text into the textarea.
 3. Click **Scan Email** to see the results.
 
+## Email Example
+
+Subject: URGENT: Account Verification Required
+
+Dear User,
+
+We detected unusual activity on your account. To avoid being locked out, please VERIFY your password immediately by clicking the link below:
+
+http://fakebank-login.com
+
+FAILURE TO ACT WITHIN 24 HOURS WILL RESULT IN ACCOUNT SUSPENSION.
+
+THANK YOU,
+The Security Team
+
+
 ## Installation (for local testing)
 
 ```bash
