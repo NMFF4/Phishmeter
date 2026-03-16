@@ -5,7 +5,7 @@ PhishMeter is a simple web app that analyzes email text and scores its phishing 
 ## Live Demo
 
 Check it out live: [https://phishmeter.onrender.com](https://phishmeter.onrender.com)
-
+(might need to refresh a couple of times if it shows a type of error)
 ## Features
 
 - Detects mentions of passwords (credential theft)
